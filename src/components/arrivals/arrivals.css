@@ -1,0 +1,25 @@
+.arrivals {}
+
+.container {}
+
+.arrivals__body {}
+
+.arrivals__title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    /* 104.167% */
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+    margin: 120px 0px 100px 0px;
+}
+
+.arrivals__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 29px;
+}
